@@ -145,7 +145,7 @@ def tira_basura():
         prediccion = modelo.predict(imagenFinal)
         prediccion = tf.squeeze(prediccion)
 
-        if max(prediccion) > 0.83:
+        if max(prediccion) > 0.70:
 
             maxIndex = tf.argmax(prediccion).numpy()
 

@@ -234,11 +234,6 @@ def beneficios():
     import statistics
     from folium.plugins import MarkerCluster
 
-    st.set_page_config(
-        page_title="Caracteristicas y beneficios",
-        page_icon="🌱",
-        initial_sidebar_state="collapsed",
-    )
     st.title("Características 🪄:")
     st.markdown("""
     - **Precisión y confiabilidad**: El proyecto utiliza algoritmos de inteligencia artificial y técnicas avanzadas de procesamiento de imágenes para lograr una clasificación precisa de los diferentes tipos de residuos. Esto garantiza resultados confiables y evita errores comunes en la clasificación manual.

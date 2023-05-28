@@ -2,7 +2,6 @@ import streamlit as st
 
 def inicio():
     import streamlit as st
-    from streamlit_extras.switch_page_button import switch_page
 
     st.title(":green[EcoSort] ♻️",
             )
@@ -33,10 +32,6 @@ def inicio():
     """
     )
 
-
-    recicla = st.button("RECICLA AHORA")
-    if recicla:
-        switch_page("tira tu basura")
 
 def puntos_recoleccion():
     import streamlit as st

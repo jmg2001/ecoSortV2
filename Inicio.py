@@ -36,7 +36,7 @@ def inicio():
 
     recicla = st.button("RECICLA AHORA")
     if recicla:
-        switch_page("Tira tu basura")
+        switch_page("Inicio ♻️")
 
 def puntos_recoleccion():
     import streamlit as st
@@ -254,10 +254,6 @@ def beneficios():
     - **Facilita el reciclaje y la reutilización**: Al identificar correctamente los tipos de residuos, el proyecto facilita el proceso de reciclaje y reutilización. Los usuarios pueden tomar decisiones más informadas sobre cómo desechar los residuos, identificar los puntos de reciclaje adecuados y fomentar la separación adecuada de los materiales reciclables.
 
     - **Contribuye a un futuro sostenible**: Al utilizar tecnologías avanzadas como la inteligencia artificial, el proyecto se alinea con los objetivos de sostenibilidad y protección del medio ambiente. Ayuda a construir un futuro más limpio y sostenible al fomentar prácticas responsables de manejo de residuos y promover la economía circular.
-    """)
-
-    st.markdown("""
-    <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Les%20Rambles,%201%20Barcelona,%20Spain+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS devices</a></iframe></div>
     """)
 
 page_names_to_funcs = {

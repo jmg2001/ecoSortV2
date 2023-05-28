@@ -10,7 +10,7 @@ def inicio():
 
     st.markdown(
         """
-        Esto es EcoSort, tu asistente para clasificar tu basura de manera adecuada. En nuestro sitio web, hemos creado una 
+        Esto es :green[EcoSort], tu asistente para clasificar tu basura de manera adecuada. En nuestro sitio web, hemos creado una 
         solución innovadora que utiliza algoritmos de inteligencia artificial para ayudarte a clasificar diferentes tipos 
         de residuos de manera eficiente y precisa. Con solo unos pocos clics, podrás identificar y categorizar residuos comunes, 
         contribuyendo así a un manejo adecuado y sostenible de los desechos.

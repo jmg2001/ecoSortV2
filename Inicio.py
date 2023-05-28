@@ -86,7 +86,7 @@ def puntos_recoleccion():
             Aquí podrás identifar el punto de recollecion de residuos más cercano a tu domicilio
                 """)
 
-    st_data = st_folium(m)
+    st_data = st_folium(m, width=725)
 
     st.markdown("""
             Esta herramienta te permite visualizar de manera precisa los **diferentes puntos de recolección**

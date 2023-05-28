@@ -258,5 +258,5 @@ page_names_to_funcs = {
     "Características y beneficios 🌱": beneficios
 }
 
-demo_name = st.sidebar.selectbox("Elige una opcion:", page_names_to_funcs.keys())
+demo_name = st.sidebar.selectbox("¿Qué quieres hacer?:", page_names_to_funcs.keys())
 page_names_to_funcs[demo_name]()

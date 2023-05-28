@@ -36,7 +36,7 @@ def inicio():
 
     recicla = st.button("RECICLA AHORA")
     if recicla:
-        switch_page("inicio")
+        switch_page("tira_basura")
 
 def puntos_recoleccion():
     import streamlit as st
